@@ -24,6 +24,33 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.education-list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+}
+
+.education-list li {
+    margin-bottom: 20px; /* Отступ между элементами списка */
+}
+
+.education-list h3 {
+    margin: 0; /* Убираем отступы */
+    font-size: 1.2em; /* Размер шрифта */
+    font-weight: 600; /* Толщина шрифта */
+    font-family: 'Montserrat', sans-serif; /* Шрифт */
+}
+
+.education-list p {
+    margin: 0; /* Отступы */
+    font-size: 1em; /* Размер шрифта */
+}
+
+.education-list span {
+    margin: 0; /* Отступы */
+    font-size: 1em; /* Размер шрифта */
+}
+
 .sub-section-title {
     font-size: 1.25em;
     font-weight: 600;
